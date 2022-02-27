@@ -1,0 +1,80 @@
+2021-08-26 10:29:18.206 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Starting BackendApplication using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 13152 (E:\idea files\train\backend\target\classes started by HP in E:\idea files\train)
+2021-08-26 10:29:18.208 [restartedMain] INFO  com.example.backend.BackendApplication -
+                No active profile set, falling back to default profiles: default
+2021-08-26 10:29:18.248 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-26 10:29:18.248 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-26 10:29:18.937 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-26 10:29:19.028 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 81 ms. Found 6 JPA repository interfaces.
+2021-08-26 10:29:19.688 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8090 (http)
+2021-08-26 10:29:19.695 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8090"]
+2021-08-26 10:29:19.696 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2021-08-26 10:29:19.696 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-26 10:29:19.786 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2021-08-26 10:29:19.787 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1538 ms
+2021-08-26 10:29:19.956 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-26 10:29:20.013 [restartedMain] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-26 10:29:20.135 [restartedMain] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-26 10:29:20.226 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-08-26 10:29:20.354 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-08-26 10:29:20.369 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-26 10:29:20.597 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-08-26 10:29:20.597 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-08-26 10:29:20.597 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-08-26 10:29:20.597 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-08-26 10:29:20.898 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-26 10:29:20.906 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-26 10:29:21.768 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-26 10:29:21.872 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-26 10:29:21.974 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+                LiveReload server is running on port 35729
+2021-08-26 10:29:22.169 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8090"]
+2021-08-26 10:29:22.183 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8090 (http) with context path ''
+2021-08-26 10:29:22.184 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-08-26 10:29:22.202 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-08-26 10:29:22.226 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-08-26 10:29:22.372 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Started BackendApplication in 4.508 seconds (JVM running for 5.845)
+2021-08-26 11:23:59.287 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-26 11:23:59.386 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2021-08-26 11:23:59.414 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 27 ms
+2021-08-26 20:33:21.586 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                登录成功: User(usercard=340403200101142610, uid=sunburst7, uname=张三, password=12345, email=12345@qq.com, phone=13605544506, birth=2001-01-15, identity=0)
+2021-08-26 21:18:06.421 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-26 21:18:06.437 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-08-26 21:18:06.442 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.

@@ -1,0 +1,124 @@
+2021-09-09 00:03:12.520 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.backend.BackendApplicationTests], using SpringBootContextLoader
+2021-09-09 00:03:12.526 [main] INFO  o.s.test.context.support.AbstractContextLoader -
+                Could not detect default resource locations for test class [com.example.backend.BackendApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-09-09 00:03:12.526 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils -
+                Could not detect default configuration classes for test class [com.example.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-09-09 00:03:12.643 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Found @SpringBootConfiguration com.example.backend.BackendApplication for test class com.example.backend.BackendApplicationTests
+2021-09-09 00:03:12.724 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-09-09 00:03:12.741 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47f4e407, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2d1dee39, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@48d5f34e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@fc258b1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ff65192, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2dd80673, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4af0df05, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57ea113a, org.springframework.test.context.event.EventPublishingTestExecutionListener@acdb094, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@674bd420, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b0f373b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ceb80a1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b45dcb8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7216fb24, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2072acb2]
+2021-09-09 00:03:13.121 [main] INFO  com.example.backend.BackendApplicationTests -
+                Starting BackendApplicationTests using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 88 (started by HP in E:\idea files\train\backend)
+2021-09-09 00:03:13.123 [main] INFO  com.example.backend.BackendApplicationTests -
+                No active profile set, falling back to default profiles: default
+2021-09-09 00:03:14.072 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-09 00:03:14.139 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 60 ms. Found 6 JPA repository interfaces.
+2021-09-09 00:03:14.875 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-09 00:03:14.952 [main] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-09 00:03:15.123 [main] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-09 00:03:15.872 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-09-09 00:03:16.193 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-09-09 00:03:16.272 [main] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-09 00:03:16.590 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-09-09 00:03:16.590 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-09-09 00:03:16.590 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-09-09 00:03:16.590 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-09-09 00:03:17.020 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-09 00:03:17.028 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-09 00:03:18.017 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-09 00:03:18.319 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-09 00:03:18.842 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-09-09 00:03:18.862 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-09-09 00:03:18.886 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-09-09 00:03:19.080 [main] INFO  com.example.backend.BackendApplicationTests -
+                Started BackendApplicationTests in 6.3 seconds (JVM running for 7.642)
+2021-09-09 00:03:19.352 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-09 00:03:19.356 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-09-09 00:03:19.370 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2021-09-09 00:04:14.892 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.backend.BackendApplicationTests], using SpringBootContextLoader
+2021-09-09 00:04:14.900 [main] INFO  o.s.test.context.support.AbstractContextLoader -
+                Could not detect default resource locations for test class [com.example.backend.BackendApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-09-09 00:04:14.901 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils -
+                Could not detect default configuration classes for test class [com.example.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-09-09 00:04:15.018 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Found @SpringBootConfiguration com.example.backend.BackendApplication for test class com.example.backend.BackendApplicationTests
+2021-09-09 00:04:15.098 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-09-09 00:04:15.114 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper -
+                Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47f4e407, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2d1dee39, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@48d5f34e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@fc258b1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ff65192, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2dd80673, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4af0df05, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@57ea113a, org.springframework.test.context.event.EventPublishingTestExecutionListener@acdb094, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@674bd420, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b0f373b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ceb80a1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b45dcb8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7216fb24, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2072acb2]
+2021-09-09 00:04:15.437 [main] INFO  com.example.backend.BackendApplicationTests -
+                Starting BackendApplicationTests using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 7488 (started by HP in E:\idea files\train\backend)
+2021-09-09 00:04:15.440 [main] INFO  com.example.backend.BackendApplicationTests -
+                No active profile set, falling back to default profiles: default
+2021-09-09 00:04:16.324 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-09 00:04:16.396 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+2021-09-09 00:04:17.175 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-09 00:04:17.234 [main] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-09 00:04:17.383 [main] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-09 00:04:17.963 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-09-09 00:04:18.118 [main] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-09-09 00:04:18.143 [main] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-09 00:04:18.435 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-09-09 00:04:18.435 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-09-09 00:04:18.435 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-09-09 00:04:18.435 [main] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-09-09 00:04:18.797 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-09 00:04:18.806 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-09 00:04:19.910 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-09 00:04:20.218 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-09 00:04:20.788 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-09-09 00:04:20.816 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-09-09 00:04:20.843 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-09-09 00:04:21.040 [main] INFO  com.example.backend.BackendApplicationTests -
+                Started BackendApplicationTests in 5.888 seconds (JVM running for 6.991)
+2021-09-09 00:04:21.303 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-09 00:04:21.306 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-09-09 00:04:21.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.

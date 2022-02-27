@@ -1,0 +1,418 @@
+2021-09-05 13:56:35.720 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Starting BackendApplication using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 2660 (E:\idea files\train\backend\target\classes started by HP in E:\idea files\train)
+2021-09-05 13:56:35.722 [restartedMain] INFO  com.example.backend.BackendApplication -
+                No active profile set, falling back to default profiles: default
+2021-09-05 13:56:35.759 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-05 13:56:35.759 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-05 13:56:37.351 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-05 13:56:37.434 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
+2021-09-05 13:56:38.169 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8090 (http)
+2021-09-05 13:56:38.176 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8090"]
+2021-09-05 13:56:38.177 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2021-09-05 13:56:38.177 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-05 13:56:38.259 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2021-09-05 13:56:38.259 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 2353 ms
+2021-09-05 13:56:38.412 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-05 13:56:38.461 [restartedMain] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-05 13:56:38.584 [restartedMain] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-05 13:56:38.690 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-09-05 13:56:38.829 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-09-05 13:56:38.846 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-05 13:56:39.163 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-09-05 13:56:39.163 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-09-05 13:56:39.163 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-09-05 13:56:39.163 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-09-05 13:56:39.551 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-05 13:56:39.557 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-05 13:56:40.371 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-05 13:56:40.483 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-05 13:56:40.614 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+                LiveReload server is running on port 35729
+2021-09-05 13:56:40.742 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8090"]
+2021-09-05 13:56:40.784 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-05 13:56:40.785 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-09-05 13:56:40.801 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-09-05 13:56:40.823 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-09-05 13:56:40.975 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Started BackendApplication in 5.741 seconds (JVM running for 7.67)
+2021-09-05 13:58:54.654 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-05 13:58:54.655 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2021-09-05 13:58:54.656 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 1 ms
+2021-09-05 13:58:54.749 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                登录成功: User(usercard=100000000000000001, uid=test1, uname=李四, password=123456, email=1064658281@qq.com, phone=10000000000, birth=2001-02-02, identity=0)
+2021-09-05 13:59:04.892 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到徐州的列车信息
+[G1, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 17:00:00.0, 300.0, 300, 18, 50, 100, 50]
+[T34, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 07:00:00.0, 400.0, 390, 20, 50, 99, 50]
+
+2021-09-05 13:59:04.908 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到4之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+
+2021-09-05 13:59:04.916 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到4之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+
+2021-09-05 13:59:08.723 [http-nio-8090-exec-9] INFO  com.example.backend.web.TicketController -
+                请求座位信息:T34 北京 徐州 T34 1
+2021-09-05 13:59:13.944 [http-nio-8090-exec-1] INFO  com.example.backend.web.TicketController -
+                请求座位信息:T34 北京 徐州 T34 1
+2021-09-05 14:00:19.506 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到徐州的列车信息
+[G1, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 17:00:00.0, 300.0, 300, 18, 50, 100, 50]
+[T34, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 07:00:00.0, 400.0, 390, 20, 50, 99, 50]
+
+2021-09-05 14:00:19.515 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到4之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+
+2021-09-05 14:00:19.522 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到4之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+
+2021-09-05 14:00:22.915 [http-nio-8090-exec-10] INFO  com.example.backend.web.TicketController -
+                请求座位信息:T34 北京 徐州 T34 1
+2021-09-05 14:00:26.846 [http-nio-8090-exec-1] INFO  com.example.backend.web.TicketController -
+                请求座位信息:T34 北京 徐州 T34 1
+2021-09-05 14:00:33.175 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 14:00:59.185 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-05 14:00:59.195 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-09-05 14:00:59.205 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2021-09-05 22:03:29.896 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Starting BackendApplication using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 5656 (E:\idea files\train\backend\target\classes started by HP in E:\idea files\train)
+2021-09-05 22:03:29.927 [restartedMain] INFO  com.example.backend.BackendApplication -
+                No active profile set, falling back to default profiles: default
+2021-09-05 22:03:29.974 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-05 22:03:29.974 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-05 22:03:32.206 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-05 22:03:32.288 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+2021-09-05 22:03:33.048 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8090 (http)
+2021-09-05 22:03:33.064 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8090"]
+2021-09-05 22:03:33.065 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2021-09-05 22:03:33.065 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-05 22:03:33.199 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2021-09-05 22:03:33.200 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 3226 ms
+2021-09-05 22:03:33.494 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-05 22:03:33.562 [restartedMain] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-05 22:03:33.730 [restartedMain] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-05 22:03:33.870 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-09-05 22:03:34.055 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-09-05 22:03:34.081 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-05 22:03:34.330 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-09-05 22:03:34.331 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-09-05 22:03:34.331 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-09-05 22:03:34.331 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-09-05 22:03:34.652 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-05 22:03:34.659 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-05 22:03:35.566 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-05 22:03:35.721 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-05 22:03:35.867 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+                LiveReload server is running on port 35729
+2021-09-05 22:03:36.047 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8090"]
+2021-09-05 22:03:36.063 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-05 22:03:36.064 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-09-05 22:03:36.083 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-09-05 22:03:36.108 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-09-05 22:03:36.388 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Started BackendApplication in 6.981 seconds (JVM running for 8.695)
+2021-09-05 22:06:08.561 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-05 22:06:08.562 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2021-09-05 22:06:08.562 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 0 ms
+2021-09-05 22:06:08.674 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                登录成功: User(usercard=100000000000000001, uid=test1, uname=李四, password=123456, email=1064658281@qq.com, phone=10000000000, birth=2001-02-02, identity=0)
+2021-09-05 22:22:36.195 [http-nio-8090-exec-5] ERROR com.example.backend.web.EmailController -
+                不存在此用户10000000000000002
+2021-09-05 22:22:41.165 [http-nio-8090-exec-7] INFO  com.example.backend.web.EmailController -
+                邮件发送成功
+2021-09-05 22:27:02.388 [http-nio-8090-exec-10] ERROR com.example.backend.web.EmailController -
+                不存在此用户100000000000000003
+2021-09-05 22:27:07.176 [http-nio-8090-exec-2] INFO  com.example.backend.web.EmailController -
+                邮件发送成功
+2021-09-05 22:36:17.381 [http-nio-8090-exec-5] INFO  com.example.backend.web.EmailController -
+                邮件发送成功
+2021-09-05 22:42:49.109 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:44:56.033 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:46:43.187 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:52:40.898 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:57:36.398 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:57:41.785 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:57:44.003 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:58:27.078 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:58:28.480 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:59:55.679 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 22:59:57.136 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:01:34.456 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:01:36.250 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:02:03.453 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:02:04.595 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:02:35.311 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:02:36.555 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:02:37.667 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:03:26.693 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:03:28.171 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:03:31.516 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:03:38.255 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:03:42.847 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:06:36.289 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:06:36.818 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:07:47.421 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:07:48.494 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:08:19.913 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:08:20.965 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:09:17.525 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:09:18.673 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:10:53.618 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:10:55.238 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:10:57.114 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:11:25.998 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:11:27.227 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:11:27.734 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:12:17.996 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:12:20.112 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:12:21.226 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:12:45.583 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:12:46.983 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:16:08.846 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:16:10.739 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:16:13.196 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:16:33.187 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:16:34.219 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:17:02.592 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:17:03.680 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:17:04.866 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:17:58.709 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:17:59.182 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:07.374 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:09.093 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:10.294 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:31.813 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:37.241 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:39.119 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:40.261 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:52.301 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:25:53.301 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:26:12.042 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:26:17.885 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:26:32.628 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:26:33.898 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:27:31.769 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:27:32.780 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:28:22.530 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:28:26.888 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:29:07.951 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:29:09.498 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:29:11.300 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:31:11.766 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:32:28.130 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:32:29.461 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:32:30.607 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:33:07.039 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:33:17.397 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:33:49.363 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:33:50.370 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:34:44.471 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:38:30.379 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:44:27.815 [http-nio-8090-exec-1] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:44:40.677 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:44:43.995 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:45:46.564 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:46:05.454 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:47:16.673 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:47:17.861 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:47:30.807 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:52:56.462 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:53:37.890 [http-nio-8090-exec-3] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:55:13.140 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:55:14.006 [http-nio-8090-exec-7] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:55:30.736 [http-nio-8090-exec-9] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:55:32.120 [http-nio-8090-exec-10] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:56:24.680 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:56:53.298 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:56:54.697 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-05 23:59:05.727 [http-nio-8090-exec-8] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-06 00:01:17.623 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-06 00:01:17.632 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-09-06 00:01:17.637 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.

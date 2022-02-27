@@ -1,0 +1,1355 @@
+2021-09-04 14:45:09.162 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Starting BackendApplication using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 1824 (E:\idea files\train\backend\target\classes started by HP in E:\idea files\train)
+2021-09-04 14:45:09.164 [restartedMain] INFO  com.example.backend.BackendApplication -
+                No active profile set, falling back to default profiles: default
+2021-09-04 14:45:09.203 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 14:45:09.203 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 14:45:10.368 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-04 14:45:10.448 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+2021-09-04 14:45:11.035 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8090 (http)
+2021-09-04 14:45:11.042 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8090"]
+2021-09-04 14:45:11.043 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2021-09-04 14:45:11.043 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-04 14:45:11.125 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2021-09-04 14:45:11.125 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 1919 ms
+2021-09-04 14:45:11.264 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-04 14:45:11.311 [restartedMain] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-04 14:45:11.443 [restartedMain] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-04 14:45:11.524 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-09-04 14:45:11.663 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-09-04 14:45:11.682 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-04 14:45:11.939 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-09-04 14:45:11.939 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-09-04 14:45:11.939 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-09-04 14:45:11.939 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-09-04 14:45:12.234 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-04 14:45:12.240 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-04 14:45:12.837 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-04 14:45:12.933 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-04 14:45:13.025 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+                LiveReload server is running on port 35729
+2021-09-04 14:45:13.130 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8090"]
+2021-09-04 14:45:13.143 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-04 14:45:13.144 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-09-04 14:45:13.157 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-09-04 14:45:13.177 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-09-04 14:45:13.303 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Started BackendApplication in 4.592 seconds (JVM running for 6.289)
+2021-09-04 14:52:44.380 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 14:52:44.381 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2021-09-04 14:52:44.382 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 1 ms
+2021-09-04 14:52:44.473 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                登录成功: User(usercard=100000000000000001, uid=test1, uname=李四, password=123456, email=1064658281@qq.com, phone=10000000000, birth=2001-02-02, identity=0)
+2021-09-04 14:54:11.609 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:54:11.627 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:54:11.636 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:54:37.893 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到福州的换乘列车T34,1,北京,4,徐州,2021-09-09,2021-09-13,D77,1,徐州,3,福州,2021-09-10,2021-09-12
+G1,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G2,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+T34,1,北京,3,济南,2021-09-09,2021-09-13,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,D77,2,上海,3,福州,2021-09-10,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,D77,2,上海,3,福州,2021-09-10,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,6,芜湖,2021-09-09,2021-09-13,K1153,3,芜湖,6,福州,2021-09-11,2021-09-12
+
+2021-09-04 14:54:37.909 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到徐州的列车信息
+[T34, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 07:00:00.0, 400.0, 390, 20, 50, 100, 50]
+
+2021-09-04 14:54:37.915 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到4之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+
+2021-09-04 14:54:37.940 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从徐州到福州的列车信息
+[D77, 徐州, 1, 福州, 3, 2021-09-10 15:00:00.0, 2021-09-12 15:00:00.0, 300.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:54:37.946 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询D77次列车1到3之间的中转站
+Station(sid=1, tid=D77, sname=徐州, arrive_date=2021-09-10 15:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:54:37.972 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G1, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-10 10:00:00.0, 200.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:54:37.978 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到3之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:54:38.000 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.006 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:38.036 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G2, 北京, 1, 济南, 3, 2021-09-09 11:32:05.0, 2021-09-11 18:10:00.0, 300.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.041 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询G2次列车1到3之间的中转站
+Station(sid=1, tid=G2, sname=北京, arrive_date=2021-09-09 11:32:05.0, price=0.0, mileage=0)
+Station(sid=2, tid=G2, sname=邯郸, arrive_date=2021-09-10 10:10:00.0, price=210.0, mileage=150)
+Station(sid=3, tid=G2, sname=济南, arrive_date=2021-09-11 18:10:00.0, price=300.0, mileage=300)
+
+2021-09-04 14:54:38.061 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.066 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:38.087 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[T34, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-09 15:00:00.0, 200.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.093 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到3之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:54:38.114 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.120 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:38.148 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:54:38.153 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:54:38.174 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.179 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:54:38.201 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.206 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:54:38.229 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.233 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:54:38.255 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:54:38.259 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:54:38.284 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.296 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:38.322 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.328 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:54:38.355 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.361 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:38.383 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到芜湖的列车信息
+[T34, 北京, 1, 芜湖, 6, 2021-09-09 08:00:00.0, 2021-09-11 12:00:00.0, 500.0, 500, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.390 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到6之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+Station(sid=6, tid=T34, sname=芜湖, arrive_date=2021-09-11 12:00:00.0, price=500.0, mileage=500)
+
+2021-09-04 14:54:38.413 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从芜湖到福州的列车信息
+[K1153, 芜湖, 3, 福州, 6, 2021-09-12 01:00:00.0, 2021-09-12 10:00:00.0, 200.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:54:38.417 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询K1153次列车3到6之间的中转站
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:55.355 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到福州的换乘列车T34,1,北京,4,徐州,2021-09-09,2021-09-13,D77,1,徐州,3,福州,2021-09-10,2021-09-12
+G1,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G2,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+T34,1,北京,3,济南,2021-09-09,2021-09-13,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,D77,2,上海,3,福州,2021-09-10,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,D77,2,上海,3,福州,2021-09-10,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,6,芜湖,2021-09-09,2021-09-13,K1153,3,芜湖,6,福州,2021-09-11,2021-09-12
+
+2021-09-04 14:54:55.370 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到徐州的列车信息
+[T34, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 07:00:00.0, 400.0, 390, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.378 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到4之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+
+2021-09-04 14:54:55.398 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从徐州到福州的列车信息
+[D77, 徐州, 1, 福州, 3, 2021-09-10 15:00:00.0, 2021-09-12 15:00:00.0, 300.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.405 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询D77次列车1到3之间的中转站
+Station(sid=1, tid=D77, sname=徐州, arrive_date=2021-09-10 15:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:54:55.426 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G1, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-10 10:00:00.0, 200.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:54:55.432 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到3之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:54:55.454 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.458 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:55.481 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G2, 北京, 1, 济南, 3, 2021-09-09 11:32:05.0, 2021-09-11 18:10:00.0, 300.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.487 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询G2次列车1到3之间的中转站
+Station(sid=1, tid=G2, sname=北京, arrive_date=2021-09-09 11:32:05.0, price=0.0, mileage=0)
+Station(sid=2, tid=G2, sname=邯郸, arrive_date=2021-09-10 10:10:00.0, price=210.0, mileage=150)
+Station(sid=3, tid=G2, sname=济南, arrive_date=2021-09-11 18:10:00.0, price=300.0, mileage=300)
+
+2021-09-04 14:54:55.506 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.511 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:55.530 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[T34, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-09 15:00:00.0, 200.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.535 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到3之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:54:55.554 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.558 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:55.577 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:54:55.581 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:54:55.602 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.607 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:54:55.625 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.630 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:54:55.650 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.654 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:54:55.674 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:54:55.678 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:54:55.698 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.711 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:55.741 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.747 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:54:55.769 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.774 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:54:55.796 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到芜湖的列车信息
+[T34, 北京, 1, 芜湖, 6, 2021-09-09 08:00:00.0, 2021-09-11 12:00:00.0, 500.0, 500, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.800 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到6之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+Station(sid=6, tid=T34, sname=芜湖, arrive_date=2021-09-11 12:00:00.0, price=500.0, mileage=500)
+
+2021-09-04 14:54:55.825 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从芜湖到福州的列车信息
+[K1153, 芜湖, 3, 福州, 6, 2021-09-12 01:00:00.0, 2021-09-12 10:00:00.0, 200.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:54:55.830 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询K1153次列车3到6之间的中转站
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:06.477 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到福州的换乘列车T34,1,北京,4,徐州,2021-09-09,2021-09-13,D77,1,徐州,3,福州,2021-09-10,2021-09-12
+G1,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G2,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+T34,1,北京,3,济南,2021-09-09,2021-09-13,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,D77,2,上海,3,福州,2021-09-10,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,D77,2,上海,3,福州,2021-09-10,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,6,芜湖,2021-09-09,2021-09-13,K1153,3,芜湖,6,福州,2021-09-11,2021-09-12
+
+2021-09-04 14:55:06.492 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到徐州的列车信息
+[T34, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 07:00:00.0, 400.0, 390, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.497 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到4之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+
+2021-09-04 14:55:06.515 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从徐州到福州的列车信息
+[D77, 徐州, 1, 福州, 3, 2021-09-10 15:00:00.0, 2021-09-12 15:00:00.0, 300.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.522 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询D77次列车1到3之间的中转站
+Station(sid=1, tid=D77, sname=徐州, arrive_date=2021-09-10 15:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:55:06.541 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G1, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-10 10:00:00.0, 200.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:55:06.545 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到3之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:55:06.563 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.569 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:06.589 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G2, 北京, 1, 济南, 3, 2021-09-09 11:32:05.0, 2021-09-11 18:10:00.0, 300.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.593 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询G2次列车1到3之间的中转站
+Station(sid=1, tid=G2, sname=北京, arrive_date=2021-09-09 11:32:05.0, price=0.0, mileage=0)
+Station(sid=2, tid=G2, sname=邯郸, arrive_date=2021-09-10 10:10:00.0, price=210.0, mileage=150)
+Station(sid=3, tid=G2, sname=济南, arrive_date=2021-09-11 18:10:00.0, price=300.0, mileage=300)
+
+2021-09-04 14:55:06.612 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.617 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:06.634 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[T34, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-09 15:00:00.0, 200.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.639 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到3之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:55:06.657 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.662 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:06.684 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:55:06.689 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:06.707 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.711 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:55:06.729 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.733 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:06.751 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.755 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:55:06.778 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:55:06.783 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:06.803 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.817 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:06.841 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.846 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:06.868 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.873 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:06.894 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到芜湖的列车信息
+[T34, 北京, 1, 芜湖, 6, 2021-09-09 08:00:00.0, 2021-09-11 12:00:00.0, 500.0, 500, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.898 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到6之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+Station(sid=6, tid=T34, sname=芜湖, arrive_date=2021-09-11 12:00:00.0, price=500.0, mileage=500)
+
+2021-09-04 14:55:06.920 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从芜湖到福州的列车信息
+[K1153, 芜湖, 3, 福州, 6, 2021-09-12 01:00:00.0, 2021-09-12 10:00:00.0, 200.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:55:06.924 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询K1153次列车3到6之间的中转站
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:15.934 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到福州的换乘列车T34,1,北京,4,徐州,2021-09-09,2021-09-13,D77,1,徐州,3,福州,2021-09-10,2021-09-12
+G1,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G2,1,北京,3,济南,2021-09-09,2021-09-11,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+T34,1,北京,3,济南,2021-09-09,2021-09-13,K1153,1,济南,6,福州,2021-09-11,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,D77,2,上海,3,福州,2021-09-10,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,D77,2,上海,3,福州,2021-09-10,2021-09-12
+G1,1,北京,5,上海,2021-09-09,2021-09-11,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,5,上海,2021-09-09,2021-09-13,K1153,2,上海,6,福州,2021-09-11,2021-09-12
+T34,1,北京,6,芜湖,2021-09-09,2021-09-13,K1153,3,芜湖,6,福州,2021-09-11,2021-09-12
+
+2021-09-04 14:55:15.944 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到徐州的列车信息
+[T34, 北京, 1, 徐州, 4, 2021-09-09 08:00:00.0, 2021-09-10 07:00:00.0, 400.0, 390, 20, 50, 100, 50]
+
+2021-09-04 14:55:15.950 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到4之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+
+2021-09-04 14:55:15.968 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从徐州到福州的列车信息
+[D77, 徐州, 1, 福州, 3, 2021-09-10 15:00:00.0, 2021-09-12 15:00:00.0, 300.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:55:15.973 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询D77次列车1到3之间的中转站
+Station(sid=1, tid=D77, sname=徐州, arrive_date=2021-09-10 15:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:55:15.991 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G1, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-10 10:00:00.0, 200.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:55:15.995 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到3之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:55:16.013 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.019 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:16.037 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[G2, 北京, 1, 济南, 3, 2021-09-09 11:32:05.0, 2021-09-11 18:10:00.0, 300.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.041 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询G2次列车1到3之间的中转站
+Station(sid=1, tid=G2, sname=北京, arrive_date=2021-09-09 11:32:05.0, price=0.0, mileage=0)
+Station(sid=2, tid=G2, sname=邯郸, arrive_date=2021-09-10 10:10:00.0, price=210.0, mileage=150)
+Station(sid=3, tid=G2, sname=济南, arrive_date=2021-09-11 18:10:00.0, price=300.0, mileage=300)
+
+2021-09-04 14:55:16.058 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.062 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:16.079 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到济南的列车信息
+[T34, 北京, 1, 济南, 3, 2021-09-09 08:00:00.0, 2021-09-09 15:00:00.0, 200.0, 200, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.084 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到3之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+
+2021-09-04 14:55:16.103 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从济南到福州的列车信息
+[K1153, 济南, 1, 福州, 6, 2021-09-11 19:00:00.0, 2021-09-12 10:00:00.0, 600.0, 700, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.107 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询K1153次列车1到6之间的中转站
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:16.123 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:55:16.127 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:16.144 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.148 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:55:16.165 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.168 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:16.186 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-10从上海到福州的列车信息
+[D77, 上海, 2, 福州, 3, 2021-09-11 15:00:00.0, 2021-09-12 15:00:00.0, 100.0, 100, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.189 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询D77次列车2到3之间的中转站
+Station(sid=2, tid=D77, sname=上海, arrive_date=2021-09-11 15:00:00.0, price=200.0, mileage=100)
+Station(sid=3, tid=D77, sname=福州, arrive_date=2021-09-12 15:00:00.0, price=300.0, mileage=200)
+
+2021-09-04 14:55:16.208 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+
+2021-09-04 14:55:16.212 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:16.229 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.241 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:16.264 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.273 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:16.294 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从上海到福州的列车信息
+[K1153, 上海, 2, 福州, 6, 2021-09-11 23:00:00.0, 2021-09-12 10:00:00.0, 290.0, 400, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.299 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询K1153次列车2到6之间的中转站
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:16.320 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到芜湖的列车信息
+[T34, 北京, 1, 芜湖, 6, 2021-09-09 08:00:00.0, 2021-09-11 12:00:00.0, 500.0, 500, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.324 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到6之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+Station(sid=6, tid=T34, sname=芜湖, arrive_date=2021-09-11 12:00:00.0, price=500.0, mileage=500)
+
+2021-09-04 14:55:16.344 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-11从芜湖到福州的列车信息
+[K1153, 芜湖, 3, 福州, 6, 2021-09-12 01:00:00.0, 2021-09-12 10:00:00.0, 200.0, 300, 20, 50, 100, 50]
+
+2021-09-04 14:55:16.348 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询K1153次列车3到6之间的中转站
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 14:55:21.119 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到福州的列车信息
+[T34, 北京, 1, 福州, 7, 2021-09-09 08:00:00.0, 2021-09-13 15:00:00.0, 700.0, 600, 20, 50, 100, 50]
+
+2021-09-04 14:55:21.126 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到7之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+Station(sid=6, tid=T34, sname=芜湖, arrive_date=2021-09-11 12:00:00.0, price=500.0, mileage=500)
+Station(sid=7, tid=T34, sname=福州, arrive_date=2021-09-13 15:00:00.0, price=700.0, mileage=600)
+
+2021-09-04 14:55:28.899 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:28.906 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:28.912 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:34.212 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:34.220 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:34.221 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:39.033 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:39.038 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:39.043 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:47.710 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:47.719 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:47.726 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:55:53.515 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:55:53.521 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:55:53.521 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:56:01.540 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:56:01.547 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:56:01.547 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:56:05.141 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:56:05.147 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:56:05.147 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:56:08.236 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:56:08.241 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:56:08.241 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:56:17.333 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-04 14:56:21.929 [http-nio-8090-exec-4] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-04 14:56:35.796 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:56:35.802 [http-nio-8090-exec-10] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:56:35.810 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:56:51.085 [http-nio-8090-exec-3] INFO  com.example.backend.web.TicketController -
+                请求座位信息:G1 北京 上海 G1 1
+2021-09-04 14:57:02.920 [http-nio-8090-exec-6] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-04 14:57:48.888 [http-nio-8090-exec-1] ERROR com.example.backend.web.EmailController -
+                不存在此用户10000000000000002
+2021-09-04 14:58:29.142 [http-nio-8090-exec-4] ERROR com.example.backend.web.EmailController -
+                不存在此用户10000000000000002
+2021-09-04 14:58:42.436 [http-nio-8090-exec-8] INFO  com.example.backend.web.EmailController -
+                邮件发送成功
+2021-09-04 14:59:17.377 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 100, 50]
+
+2021-09-04 14:59:17.383 [http-nio-8090-exec-2] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 14:59:17.390 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 14:59:22.251 [http-nio-8090-exec-7] INFO  com.example.backend.web.TicketController -
+                请求座位信息:T34 北京 上海 T34 2
+2021-09-04 14:59:31.254 [http-nio-8090-exec-10] INFO  com.example.backend.web.TicketController -
+                添加车票: Ticket(usercard=100000000000000001, tid=T34, startSid=1, arriveSid=5, cid=15, seatSequence=1, price=450.0)
+2021-09-04 14:59:31.264 [http-nio-8090-exec-9] INFO  com.example.backend.web.TicketController -
+                添加车票: Ticket(usercard=100000000000000002, tid=T34, startSid=1, arriveSid=5, cid=15, seatSequence=2, price=450.0)
+2021-09-04 14:59:32.934 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"},{"trainID":"T34","endStation":"上海","endDate":"2021-09-10 20:00:00.0","price":450.0,"startStation":"北京","seatInfo":"3车1排1座","type":"二等座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-04 14:59:35.745 [http-nio-8090-exec-4] INFO  com.example.backend.web.TicketController -
+                删除车票: 100000000000000001 T34
+2021-09-04 14:59:35.756 [http-nio-8090-exec-5] INFO  com.example.backend.web.UserController -
+                [{"trainID":"G1","endStation":"济南","endDate":"2021-09-10 10:00:00.0","price":600.0,"startStation":"北京","seatInfo":"1车1排3座","type":"商务座","startDate":"2021-09-09 08:00:00.0"}]
+2021-09-04 15:02:40.296 [http-nio-8090-exec-1] INFO  com.example.backend.web.StationController -
+                检查K1153次列车所有经停站：
+Station(sid=1, tid=K1153, sname=济南, arrive_date=2021-09-11 19:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=K1153, sname=上海, arrive_date=2021-09-11 23:00:00.0, price=310.0, mileage=300)
+Station(sid=3, tid=K1153, sname=芜湖, arrive_date=2021-09-12 01:00:00.0, price=400.0, mileage=400)
+Station(sid=4, tid=K1153, sname=蚌埠, arrive_date=2021-09-12 02:00:00.0, price=450.0, mileage=500)
+Station(sid=5, tid=K1153, sname=九江, arrive_date=2021-09-12 05:00:00.0, price=500.0, mileage=600)
+Station(sid=6, tid=K1153, sname=福州, arrive_date=2021-09-12 10:00:00.0, price=600.0, mileage=700)
+
+2021-09-04 16:48:58.372 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-04 16:48:58.386 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-09-04 16:48:58.391 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
+2021-09-04 21:46:51.688 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Starting BackendApplication using Java 12.0.2 on LAPTOP-QVDA2C3C with PID 764 (E:\idea files\train\backend\target\classes started by HP in E:\idea files\train)
+2021-09-04 21:46:51.712 [restartedMain] INFO  com.example.backend.BackendApplication -
+                No active profile set, falling back to default profiles: default
+2021-09-04 21:46:51.756 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-04 21:46:51.756 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor -
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-04 21:46:53.006 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-04 21:46:53.072 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate -
+                Finished Spring Data repository scanning in 57 ms. Found 6 JPA repository interfaces.
+2021-09-04 21:46:53.686 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8090 (http)
+2021-09-04 21:46:53.694 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8090"]
+2021-09-04 21:46:53.694 [restartedMain] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2021-09-04 21:46:53.694 [restartedMain] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-04 21:46:53.788 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring embedded WebApplicationContext
+2021-09-04 21:46:53.788 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+                Root WebApplicationContext: initialization completed in 2032 ms
+2021-09-04 21:46:53.956 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper -
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-04 21:46:54.002 [restartedMain] INFO  org.hibernate.Version -
+                HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-04 21:46:54.117 [restartedMain] INFO  org.hibernate.annotations.common.Version -
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-04 21:46:54.201 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Starting...
+2021-09-04 21:46:54.315 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Start completed.
+2021-09-04 21:46:54.332 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+                HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-04 21:46:54.548 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.StationKey
+2021-09-04 21:46:54.548 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.StationKey
+2021-09-04 21:46:54.549 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000038: Composite-id class does not override equals(): com.example.backend.key.TicketKey
+2021-09-04 21:46:54.549 [restartedMain] WARN  org.hibernate.mapping.RootClass -
+                HHH000039: Composite-id class does not override hashCode(): com.example.backend.key.TicketKey
+2021-09-04 21:46:54.866 [restartedMain] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator -
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-04 21:46:54.873 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-04 21:46:55.567 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-04 21:46:55.693 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping -
+                Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-04 21:46:55.814 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer -
+                LiveReload server is running on port 35729
+2021-09-04 21:46:55.924 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8090"]
+2021-09-04 21:46:55.939 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-04 21:46:55.940 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Context refreshed
+2021-09-04 21:46:55.956 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper -
+                Found 1 custom documentation plugin(s)
+2021-09-04 21:46:55.975 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner -
+                Scanning for api listing references
+2021-09-04 21:46:56.104 [restartedMain] INFO  com.example.backend.BackendApplication -
+                Started BackendApplication in 4.836 seconds (JVM running for 6.346)
+2021-09-04 21:49:12.431 [http-nio-8090-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-04 21:49:12.432 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2021-09-04 21:49:12.432 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 0 ms
+2021-09-04 21:49:12.505 [http-nio-8090-exec-2] INFO  com.example.backend.web.UserController -
+                登录成功: User(usercard=100000000000000001, uid=test1, uname=李四, password=123456, email=1064658281@qq.com, phone=10000000000, birth=2001-02-02, identity=0)
+2021-09-04 21:49:29.426 [http-nio-8090-exec-4] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 99, 50]
+
+2021-09-04 21:49:29.443 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 21:49:29.449 [http-nio-8090-exec-7] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 21:49:33.599 [http-nio-8090-exec-8] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 99, 50]
+
+2021-09-04 21:49:33.611 [http-nio-8090-exec-9] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 21:50:38.425 [http-nio-8090-exec-3] INFO  com.example.backend.web.StationController -
+                查询2021-09-09从北京到上海的列车信息
+[G1, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-11 08:00:00.0, 500.0, 200, 18, 50, 100, 50]
+[T34, 北京, 1, 上海, 5, 2021-09-09 08:00:00.0, 2021-09-10 20:00:00.0, 450.0, 450, 20, 50, 99, 50]
+
+2021-09-04 21:50:38.434 [http-nio-8090-exec-5] INFO  com.example.backend.web.StationController -
+                查询G1次列车1到5之间的中转站
+Station(sid=1, tid=G1, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=G1, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=G1, sname=济南, arrive_date=2021-09-10 10:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=G1, sname=徐州, arrive_date=2021-09-10 17:00:00.0, price=300.0, mileage=300)
+Station(sid=5, tid=G1, sname=上海, arrive_date=2021-09-11 08:00:00.0, price=500.0, mileage=200)
+
+2021-09-04 21:50:38.442 [http-nio-8090-exec-6] INFO  com.example.backend.web.StationController -
+                查询T34次列车1到5之间的中转站
+Station(sid=1, tid=T34, sname=北京, arrive_date=2021-09-09 08:00:00.0, price=0.0, mileage=0)
+Station(sid=2, tid=T34, sname=石家庄, arrive_date=2021-09-09 09:00:00.0, price=100.0, mileage=100)
+Station(sid=3, tid=T34, sname=济南, arrive_date=2021-09-09 15:00:00.0, price=200.0, mileage=200)
+Station(sid=4, tid=T34, sname=徐州, arrive_date=2021-09-10 07:00:00.0, price=400.0, mileage=390)
+Station(sid=5, tid=T34, sname=上海, arrive_date=2021-09-10 20:00:00.0, price=450.0, mileage=450)
+
+2021-09-04 21:50:45.709 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean -
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-04 21:50:45.727 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown initiated...
+2021-09-04 21:50:45.751 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -
+                HikariPool-1 - Shutdown completed.
