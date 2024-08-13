@@ -34,13 +34,13 @@ class BackendApplicationTests {
     @Test
     void contextLoads() {
 //        System.out.println(userRepository.modifyByUsercard
-//                ("340403200101142610",
+//                ("340403000000000000",
 //                        "sunburst7",
 //                        "12345",
 //                        "12345@qq.com",
-//                        "13605544506",
+//                        "123456789",
 //                        new Date(2001-1900,0,15),0));
-//        System.out.println(userRepository.findByUsercardAndPassword("340403200101142610","12345"));
+//        System.out.println(userRepository.findByUsercardAndPassword("340403000000000000","12345"));
 //
 //        List<String> s = stationRepository.findStation("北京","徐州",new Date(2021-1900,7,9));
 //        for(String str:s)
